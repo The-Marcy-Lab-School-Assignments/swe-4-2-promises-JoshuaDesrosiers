@@ -27,6 +27,8 @@ Callback hell is problematic because its repetitive and messy needlessly and get
 
 If you have a chain of three `.then()` calls followed by a single `.catch()`, and the second `.then()` throws an error, what happens? Why is this behavior useful?
 
+
+
 **Your Answer:**
 
 Here's the catch, you don't need a catch for every then, therefore the second then gets caught by the catch.
